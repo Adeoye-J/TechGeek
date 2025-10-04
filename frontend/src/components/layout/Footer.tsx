@@ -33,7 +33,9 @@ const Footer = () => {
           <p>WhatsApp: <a href="https://wa.me/2348150420521" className="text-blue-400">+234 815 0420 521</a></p>
           <div className="flex gap-3 mt-3">
             {/* <a href="#" className="hover:text-blue-400">Facebook</a> */}
-            <a href="#" className="hover:text-blue-400">LinkedIn</a>
+            <a target="_blank" href="https://www.linkedin.com/in/jeremiah-bankole" className="hover:text-blue-400">
+                <img src="/images/linkedin.png" alt="LinkedIn Logo" width={30} />
+            </a>
             {/* <a href="#" className="hover:text-blue-400">Twitter</a> */}
           </div>
         </div>
