@@ -1,1 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
+
+@theme {
+    --font-family-base: 'Urbanist', sans-serif;
+
+    --color-primary: #4F46E5;
+    --color-primary-hover: #4338CA;
+
+}
+
+/* extend {
+    colors: {
+        primary: var(--color-primary);
+    }
+} */
+
+
+html {
+    scroll-behavior: smooth;
+    font-family: var(--font-family-base);
+}
